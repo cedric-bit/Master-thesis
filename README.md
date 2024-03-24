@@ -22,9 +22,13 @@ For more information on ScatSeisNet, please refer to the [ScatSeisNet documentat
 
 ## Step 3 Dimensionality reduction with PCA and ICA
 
+```shel
 conda install matplotlib scikit-learn
-
+```
+from sklearn.decomposition import FastICA, PCA
 ## Step 4 Clustering with K-mean
+```shel
 conda install matplotlib scikit-learn
+```
 
 from sklearn.cluster import KMeans
